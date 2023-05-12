@@ -1,0 +1,178 @@
+.container {
+  display: block;
+  margin-top: 140px;
+}
+
+.center {
+  text-align: center;
+  align-items: center;
+}
+
+.rounded_logo {
+  border-radius: 150px;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header h1 {
+  margin-left: 300px;
+}
+
+.header img {
+  margin-right: 300px;
+  width: 300px;
+}
+
+.btns {
+  margin-left: 300px;
+  margin-bottom: 400px;
+}
+
+.linkclear {
+  color: #1b2033;
+  text-decoration: none;
+}
+
+.btn_primary {
+  border: none;
+  color: #1b2033;
+  padding: 1em 2em;
+  background-color: #985d6f;
+  border-radius: 6px;
+  transition: transform ease 0.2s, box-shadow ease 0.2s;
+  display: inline-block;
+  font-size: 18px;
+  z-index: 2;
+}
+
+.btn_primary:hover {
+  transform: translate(0, -3px);
+  box-shadow: 0 20px 80px -10px #985d6f;
+  cursor: pointer;
+}
+
+.btn_secondary {
+  margin-left: 20px;
+  border: none;
+  color: #1b2033;
+  padding: 1em 2em;
+  background-color: #98878f;
+  border-radius: 6px;
+  transition: transform ease 0.2s, box-shadow ease 0.2s;
+  display: inline-block;
+  font-size: 18px;
+  z-index: 2;
+}
+
+.btn_secondary:hover {
+  transform: translate(0, -3px);
+  cursor: pointer;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #3a3d55;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #98878f;
+}
+
+/* Not Found Page */
+
+.center_notfound {
+  display: flex;
+  margin-top: 250px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.box_notfound {
+  border-radius: 12px;
+  padding: 2em 2em;
+  background-color: #3a3d55;
+  width: 350px;
+}
+
+/* Navbar */
+
+.center_nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.box_nav {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 10px;
+}
+
+/* Boxes */
+
+.box_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.box {
+  padding: 1em 2em;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 200px;
+  height: 300px;
+  background-color: #3a3d55;
+  display: block;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.box h2 {
+  margin-top: 35px;
+}
+
+.p_top {
+  margin-top: 50px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.link {
+  color: #98878f;
+  font-weight: 500;
+  margin-right: 100px; /* Add margin-right to create a gap between the links */
+}
+
+.link:last-child {
+  margin-right: 0; /* Remove margin-right from the last link to eliminate extra spacing */
+}
